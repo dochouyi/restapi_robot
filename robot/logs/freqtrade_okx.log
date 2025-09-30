@@ -1,0 +1,1822 @@
+2025-09-28 07:35:22,363 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-09-28 07:35:22,363 - freqtrade.loggers - INFO - Logfile configured
+2025-09-28 07:35:22,363 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-09-28 07:35:22,364 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-09-28 07:35:22,364 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2025-09-28 07:35:22,364 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-09-28 07:35:22,364 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:///user_data/db/tradesv3_okx.sqlite"
+2025-09-28 07:35:22,364 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2025-09-28 07:35:22,375 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-09-28 07:35:22,375 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2025-09-28 07:35:22,376 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/okx ...
+2025-09-28 07:35:22,376 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-09-28 07:35:22,382 - freqtrade.exchange.check_exchange - INFO - Exchange "okx" is officially supported by the Freqtrade development team.
+2025-09-28 07:35:22,382 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-09-28 07:35:22,382 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-09-28 07:35:22,383 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.96
+2025-09-28 07:35:22,383 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:35:22,388 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:35:22,393 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:35:22,398 - freqtrade.exchange.exchange - INFO - Using Exchange "OKX"
+2025-09-28 07:35:23,863 - freqtrade.exchange.exchange - INFO - Initializing leverage_tiers for 233 markets. This will take about a minute.
+2025-09-28 07:35:25,146 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AGLD/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,249 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AI16Z/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,341 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AIXBT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,390 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ALGO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,558 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ANIME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,598 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for APE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,706 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for API3/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,821 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for APT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:25,918 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:26,046 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ARB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,096 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BAND/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,225 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BARD/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,302 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BAT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,409 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BCH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,486 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BERA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,631 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BICO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,703 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIGTIME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,809 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,891 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BLUR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:27,991 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:28,151 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,234 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for COMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,338 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for COOKIE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,391 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CORE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,499 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CRO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,604 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CRV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,694 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CTC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,788 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CVC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,903 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for CVX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:29,996 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for DEGEN/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:30,087 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for DOGE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,203 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,293 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,443 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,521 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FARTCOIN/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,593 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FIL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,730 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,819 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLOKI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:31,901 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLOW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:32,013 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FXS/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:32,098 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for GALA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:32,194 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for GAS/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,296 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for HOME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,492 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for HYPE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,590 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ICP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,669 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for HUMA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,709 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ICX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,809 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IMX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,888 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for INIT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:33,995 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for INJ/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:34,093 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AGLD/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:34,190 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for AI16Z/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,391 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BCH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,703 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BARD/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,709 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIGTIME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,740 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BERA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,788 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,861 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BICO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,892 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BLUR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:35,999 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:36,089 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:36,194 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for COMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,302 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,393 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,497 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FARTCOIN/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,592 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FIL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,688 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,812 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLOKI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,892 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FLOW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:37,993 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for FXS/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:38,086 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for GALA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:38,202 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for GAS/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:38,308 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for HOME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:39,388 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BARD/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,516 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIGTIME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,597 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BERA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,704 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,796 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BICO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,893 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BLUR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:39,997 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:40,107 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:40,214 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for COMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:40,301 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:40,387 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:41,496 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIGTIME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:41,593 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BERA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:41,701 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BIO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:41,793 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BICO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:41,888 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BLUR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:42,019 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:42,097 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for BNT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:42,232 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for COMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:42,294 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:42,403 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ETHW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:35:43,708 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IOST/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:43,803 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IOTA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:43,902 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:44,003 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JELLYJELLY/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:44,086 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JOE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:44,212 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JTO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:44,305 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JUP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:44,389 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for KAITO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:45,492 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LRC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:45,581 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LTC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:45,740 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LUNA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:45,788 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MAGIC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:45,888 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MANA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,001 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MASK/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,083 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,188 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MEME/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,288 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MERL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,398 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for METIS/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:46,514 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MEW/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:47,601 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for NMR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:47,689 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for NOT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:47,789 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for NXPC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:47,897 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OKB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,086 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,191 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,242 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,291 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,387 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:48,715 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:49,587 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:49,692 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POPCAT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:49,792 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PRCL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:49,895 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PROMPT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,013 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PUMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,132 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PYTH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,197 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for QTUM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,290 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for RAY/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,391 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for RENDER/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,522 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for RESOLV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:50,593 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for RSR/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:51,690 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SLP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:51,801 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SNX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:51,914 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:51,993 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOLV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,088 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SONIC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,191 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOON/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,288 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOPH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,401 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SPK/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,559 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SPX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,589 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SSV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:52,685 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for STORJ/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:35:53,806 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IOTA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:53,888 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:53,982 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JELLYJELLY/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,145 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JOE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,192 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JTO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,292 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for JUP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,386 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for KAITO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,486 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LRC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,593 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LTC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,704 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for LUNA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:54,787 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for MAGIC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:55,881 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OKB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:55,994 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,094 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,188 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,372 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,390 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,497 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,606 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,689 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POPCAT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,797 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PRCL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:56,886 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PROMPT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,001 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOLV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,104 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SONIC/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,182 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOON/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,282 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOPH/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,407 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SPK/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,583 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SSV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,686 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for STORJ/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,764 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SPX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:35:58,796 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IOTA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:58,909 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for IP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:35:59,997 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,093 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,188 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,296 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,399 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,501 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,597 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,682 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POPCAT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,791 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PRCL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,909 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PROMPT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:00,991 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOLV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:02,089 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,182 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,284 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,436 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,503 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for OP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,596 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,686 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for POPCAT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,801 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PRCL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,907 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for PROMPT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:02,992 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for SOLV/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:03,090 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Giving up.
+2025-09-28 07:36:04,148 - freqtrade.exchange.exchange - WARNING - Leverage tier exception: TemporaryError('Could not load leverage tiers for ONDO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}')
+2025-09-28 07:36:04,536 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TON/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:04,638 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TRB/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:04,744 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TREE/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:04,821 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TRUMP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:04,933 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TRX/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:05,036 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TURBO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:05,130 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for UMA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,236 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for WLFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,328 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for WOO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,443 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XAUT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,526 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XLM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,621 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XPL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,731 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XRP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,833 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XTZ/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:06,928 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:07,026 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:07,139 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for ZENT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 4 times.
+2025-09-28 07:36:08,229 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for TURBO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,334 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for UMA/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,432 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for WLFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,548 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for WOO/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,628 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XAUT/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,818 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XLM/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,844 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XPL/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:08,946 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XRP/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:09,026 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for XTZ/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:09,146 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:09,238 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 3 times.
+2025-09-28 07:36:10,338 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:10,432 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 2 times.
+2025-09-28 07:36:10,618 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:10,732 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Retrying still for 1 times.
+2025-09-28 07:36:10,948 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Giving up.
+2025-09-28 07:36:11,014 - freqtrade.exchange.common - WARNING - get_market_leverage_tiers() returned exception: "Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}". Giving up.
+2025-09-28 07:36:11,015 - freqtrade.exchange.exchange - WARNING - Leverage tier exception: TemporaryError('Could not load leverage tiers for YFI/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}')
+2025-09-28 07:36:11,016 - freqtrade.exchange.exchange - WARNING - Leverage tier exception: TemporaryError('Could not load leverage tiers for YGG/USDT:USDT due to RateLimitExceeded. Message: okx {"msg":"Too Many Requests","code":"50011"}')
+2025-09-28 07:36:11,017 - freqtrade.misc - INFO - dumping json to "/freqtrade/user_data/data/okx/futures/leverage_tiers_USDT.json"
+2025-09-28 07:36:11,060 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 07:36:11,066 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Okx'...
+2025-09-28 07:36:11,067 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DummyStrategy from '/freqtrade/user_data/strategies/DummyStrategy.py'...
+2025-09-28 07:36:11,067 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2025-09-28 07:36:11,067 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-09-28 07:36:11,068 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2025-09-28 07:36:11,068 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2025-09-28 07:36:11,068 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'disable_dataframe_checks' with value in config file: True.
+2025-09-28 07:36:11,068 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 1.
+2025-09-28 07:36:11,068 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 1}
+2025-09-28 07:36:11,069 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2025-09-28 07:36:11,069 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.5
+2025-09-28 07:36:11,069 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-09-28 07:36:11,069 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-09-28 07:36:11,069 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-09-28 07:36:11,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-09-28 07:36:11,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-09-28 07:36:11,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-09-28 07:36:11,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-09-28 07:36:11,070 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: False
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-09-28 07:36:11,071 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-09-28 07:36:11,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-09-28 07:36:11,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: True
+2025-09-28 07:36:11,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-09-28 07:36:11,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-09-28 07:36:11,072 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-09-28 07:36:11,073 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 1
+2025-09-28 07:36:11,073 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-09-28 07:36:11,369 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 07:36:11,370 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-09-28 07:36:11,488 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8092
+2025-09-28 07:36:11,489 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-09-28 07:36:11,499 - uvicorn.error - INFO - Started server process [1]
+2025-09-28 07:36:11,499 - uvicorn.error - INFO - Waiting for application startup.
+2025-09-28 07:36:11,500 - uvicorn.error - INFO - Application startup complete.
+2025-09-28 07:36:11,500 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8092 (Press CTRL+C to quit)
+2025-09-28 07:36:11,509 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-09-28 07:36:11,509 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-09-28 07:36:11,513 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 07:36:11,513 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.00s
+2025-09-28 07:36:11,513 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-09-28 07:36:11,514 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-09-28 07:36:11,514 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-09-28 07:36:11,514 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-09-28 07:36:11,515 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-09-28 07:36:11,515 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-09-28 07:36:11,548 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-09-28 07:36:11,549 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `okx`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 1}`\n*Stoploss:* `-0.5`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `DummyStrategy`"}
+2025-09-28 07:36:11,549 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-09-28 07:36:11,555 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 07:36:16,551 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:37:16,553 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:37:40,633 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-09-28 07:37:40,634 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-09-28 07:37:40,634 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-09-28 07:37:40,635 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-09-28 07:37:40,635 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-09-28 07:37:40,635 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-09-28 07:37:40,724 - uvicorn.error - INFO - Shutting down
+2025-09-28 07:37:40,825 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-09-28 07:37:40,825 - uvicorn.error - INFO - Application shutdown complete.
+2025-09-28 07:37:40,826 - uvicorn.error - INFO - Finished server process [1]
+2025-09-28 07:37:40,826 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-09-28 07:37:41,478 - freqtrade - INFO - SIGINT received, aborting ...
+2025-09-28 07:37:49,087 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-09-28 07:37:49,088 - freqtrade.loggers - INFO - Logfile configured
+2025-09-28 07:37:49,088 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-09-28 07:37:49,088 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-09-28 07:37:49,088 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2025-09-28 07:37:49,089 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-09-28 07:37:49,089 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:///user_data/db/tradesv3_okx.sqlite"
+2025-09-28 07:37:49,089 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2025-09-28 07:37:49,100 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-09-28 07:37:49,100 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/okx ...
+2025-09-28 07:37:49,101 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-09-28 07:37:49,107 - freqtrade.exchange.check_exchange - INFO - Exchange "okx" is officially supported by the Freqtrade development team.
+2025-09-28 07:37:49,107 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-09-28 07:37:49,107 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-09-28 07:37:49,108 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.96
+2025-09-28 07:37:49,108 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:37:49,112 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:37:49,118 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:37:49,123 - freqtrade.exchange.exchange - INFO - Using Exchange "OKX"
+2025-09-28 07:37:50,318 - freqtrade.exchange.exchange - INFO - Initializing leverage_tiers for 233 markets. This will take about a minute.
+2025-09-28 07:37:50,752 - freqtrade.misc - INFO - dumping json to "/freqtrade/user_data/data/okx/futures/leverage_tiers_USDT.json"
+2025-09-28 07:37:50,802 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 07:37:50,812 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Okx'...
+2025-09-28 07:37:50,813 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DummyStrategy from '/freqtrade/user_data/strategies/DummyStrategy.py'...
+2025-09-28 07:37:50,813 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2025-09-28 07:37:50,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-09-28 07:37:50,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2025-09-28 07:37:50,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2025-09-28 07:37:50,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'disable_dataframe_checks' with value in config file: True.
+2025-09-28 07:37:50,815 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 1.
+2025-09-28 07:37:50,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 1}
+2025-09-28 07:37:50,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2025-09-28 07:37:50,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.5
+2025-09-28 07:37:50,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-09-28 07:37:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-09-28 07:37:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-09-28 07:37:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-09-28 07:37:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-09-28 07:37:50,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-09-28 07:37:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-09-28 07:37:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-09-28 07:37:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2025-09-28 07:37:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-09-28 07:37:50,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: False
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: True
+2025-09-28 07:37:50,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-09-28 07:37:50,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-09-28 07:37:50,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-09-28 07:37:50,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 1
+2025-09-28 07:37:50,819 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-09-28 07:37:50,840 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 07:37:50,841 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-09-28 07:37:50,954 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8092
+2025-09-28 07:37:50,954 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-09-28 07:37:50,964 - uvicorn.error - INFO - Started server process [1]
+2025-09-28 07:37:50,964 - uvicorn.error - INFO - Waiting for application startup.
+2025-09-28 07:37:50,964 - uvicorn.error - INFO - Application startup complete.
+2025-09-28 07:37:50,965 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8092 (Press CTRL+C to quit)
+2025-09-28 07:37:50,974 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-09-28 07:37:50,974 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-09-28 07:37:50,977 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 07:37:50,977 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.00s
+2025-09-28 07:37:50,978 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-09-28 07:37:50,978 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-09-28 07:37:50,979 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-09-28 07:37:50,979 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-09-28 07:37:50,979 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-09-28 07:37:50,979 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-09-28 07:37:50,995 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-09-28 07:37:50,996 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `okx`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 1}`\n*Stoploss:* `-0.5`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `DummyStrategy`"}
+2025-09-28 07:37:50,997 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-09-28 07:37:51,005 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 07:37:56,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:38:56,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:39:56,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:40:56,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:41:56,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:42:56,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:43:56,018 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:44:56,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:45:56,024 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:46:56,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:47:56,029 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:48:56,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:49:56,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:50:56,038 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:51:25,043 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-09-28 07:51:25,044 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-09-28 07:51:25,045 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-09-28 07:51:25,046 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-09-28 07:51:25,047 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-09-28 07:51:25,048 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-09-28 07:51:25,061 - uvicorn.error - INFO - Shutting down
+2025-09-28 07:51:25,162 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-09-28 07:51:25,163 - uvicorn.error - INFO - Application shutdown complete.
+2025-09-28 07:51:25,164 - uvicorn.error - INFO - Finished server process [1]
+2025-09-28 07:51:25,165 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-09-28 07:51:25,818 - freqtrade - INFO - SIGINT received, aborting ...
+2025-09-28 07:51:33,663 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-09-28 07:51:33,663 - freqtrade.loggers - INFO - Logfile configured
+2025-09-28 07:51:33,663 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-09-28 07:51:33,664 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-09-28 07:51:33,664 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2025-09-28 07:51:33,664 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-09-28 07:51:33,664 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:///user_data/db/tradesv3_okx.sqlite"
+2025-09-28 07:51:33,665 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2025-09-28 07:51:33,672 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-09-28 07:51:33,672 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/okx ...
+2025-09-28 07:51:33,673 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-09-28 07:51:33,678 - freqtrade.exchange.check_exchange - INFO - Exchange "okx" is officially supported by the Freqtrade development team.
+2025-09-28 07:51:33,679 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-09-28 07:51:33,679 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-09-28 07:51:33,679 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.96
+2025-09-28 07:51:33,680 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:51:33,684 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:51:33,690 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-28 07:51:33,695 - freqtrade.exchange.exchange - INFO - Using Exchange "OKX"
+2025-09-28 07:51:35,828 - freqtrade.exchange.exchange - INFO - Using cached leverage_tiers.
+2025-09-28 07:51:35,829 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 07:51:35,838 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Okx'...
+2025-09-28 07:51:35,839 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy DummyStrategy from '/freqtrade/user_data/strategies/DummyStrategy.py'...
+2025-09-28 07:51:35,840 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2025-09-28 07:51:35,840 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-09-28 07:51:35,840 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2025-09-28 07:51:35,840 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2025-09-28 07:51:35,841 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'disable_dataframe_checks' with value in config file: True.
+2025-09-28 07:51:35,841 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 1.
+2025-09-28 07:51:35,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 1}
+2025-09-28 07:51:35,841 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1h
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.5
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-09-28 07:51:35,842 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-09-28 07:51:35,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-09-28 07:51:35,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-09-28 07:51:35,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-09-28 07:51:35,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2025-09-28 07:51:35,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-09-28 07:51:35,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2025-09-28 07:51:35,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: False
+2025-09-28 07:51:35,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-09-28 07:51:35,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-09-28 07:51:35,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-09-28 07:51:35,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: True
+2025-09-28 07:51:35,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-09-28 07:51:35,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-09-28 07:51:35,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-09-28 07:51:35,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 1
+2025-09-28 07:51:35,846 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-09-28 07:51:35,867 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 07:51:35,867 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-09-28 07:51:35,982 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8092
+2025-09-28 07:51:35,983 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-09-28 07:51:35,993 - uvicorn.error - INFO - Started server process [1]
+2025-09-28 07:51:35,993 - uvicorn.error - INFO - Waiting for application startup.
+2025-09-28 07:51:35,993 - uvicorn.error - INFO - Application startup complete.
+2025-09-28 07:51:35,994 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8092 (Press CTRL+C to quit)
+2025-09-28 07:51:36,003 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-09-28 07:51:36,003 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-09-28 07:51:36,008 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 07:51:36,008 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.00s
+2025-09-28 07:51:36,009 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-09-28 07:51:36,009 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-09-28 07:51:36,009 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-09-28 07:51:36,010 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-09-28 07:51:36,010 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-09-28 07:51:36,010 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-09-28 07:51:36,035 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-09-28 07:51:36,036 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `okx`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 1}`\n*Stoploss:* `-0.5`\n*Position adjustment:* `Off`\n*Timeframe:* `1h`\n*Strategy:* `DummyStrategy`"}
+2025-09-28 07:51:36,037 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-09-28 07:51:36,048 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 07:51:41,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:52:26,916 - uvicorn.error - INFO - 127.0.0.1:36418 - "WebSocket /api/v1/message/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6eyJ1IjoiZnJlcXRyYWRlciJ9LCJleHAiOjE3NTkwNDY4NDYsImlhdCI6MTc1OTA0NTk0NiwidHlwZSI6ImFjY2VzcyJ9.SljZCLlNAoZ-8w3eeK0KK2-ZWPKVJWf8v2ZczElHEXc" [accepted]
+2025-09-28 07:52:26,916 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(2c5dec51, ('127.0.0.1', 36418))
+2025-09-28 07:52:26,917 - uvicorn.error - INFO - connection open
+2025-09-28 07:52:41,045 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:53:41,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:54:41,050 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:55:41,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:56:41,056 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:57:41,059 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:58:41,062 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 07:59:41,065 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:00:46,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:01:06,013 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 08:01:46,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:02:46,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:03:46,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:04:46,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:05:46,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:06:46,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:07:46,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:08:46,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:09:46,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:10:46,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:11:46,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:12:46,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:13:46,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:14:46,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:15:46,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:16:46,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:17:46,050 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:18:46,053 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:19:46,055 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:20:46,058 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:21:46,061 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:22:46,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:23:46,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:24:46,068 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:25:46,070 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:26:46,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:27:46,076 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:28:46,079 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:29:46,082 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:30:46,085 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:31:06,096 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 08:31:46,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:32:46,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:33:46,094 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:34:46,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:35:46,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:36:46,103 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:37:46,106 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:38:46,109 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:39:46,112 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:40:46,115 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:41:46,117 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:42:46,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:43:46,123 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:44:46,126 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:45:46,129 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:46:46,132 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:47:46,135 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:48:46,138 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:49:46,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:50:46,144 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:51:37,465 - freqtrade.exchange.exchange - INFO - Using cached leverage_tiers.
+2025-09-28 08:51:37,465 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 08:51:37,479 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 08:51:37,480 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 08:51:46,146 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:52:46,149 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:53:46,152 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:54:46,155 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:55:46,158 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:56:46,160 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:57:46,163 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:58:46,165 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 08:59:46,168 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:00:51,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:01:06,013 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 09:01:51,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:02:51,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:03:51,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:04:51,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:05:51,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:06:51,018 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:07:51,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:08:51,023 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:09:51,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:10:51,029 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:11:51,032 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:12:51,034 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:13:51,037 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:14:51,040 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:15:51,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:16:51,045 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:17:51,049 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:18:51,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:19:51,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:20:51,057 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:21:51,060 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:22:51,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:23:51,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:24:51,068 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:25:51,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:26:51,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:27:51,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:28:51,080 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:29:51,083 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:30:51,085 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:31:06,097 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 09:31:51,088 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:32:51,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:33:51,094 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:34:51,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:35:51,099 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:36:51,102 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:37:51,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:38:51,108 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:39:51,111 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:40:51,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:41:51,117 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:42:51,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:43:51,123 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:44:51,125 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:45:51,128 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:46:51,131 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:47:51,134 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:48:51,137 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:49:51,140 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:50:51,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:51:42,493 - freqtrade.exchange.exchange - INFO - Using cached leverage_tiers.
+2025-09-28 09:51:42,493 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 09:51:42,508 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 09:51:42,509 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 09:51:51,145 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:52:51,148 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:53:51,150 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:54:51,154 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:55:51,156 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:56:51,159 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:57:51,162 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:58:51,165 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 09:59:51,167 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:00:56,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:01:06,013 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 10:01:56,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:02:56,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:03:56,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:04:56,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:05:56,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:06:56,018 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:07:56,021 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:08:56,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:09:56,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:10:56,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:11:56,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:12:56,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:13:56,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:14:56,041 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:15:56,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:16:56,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:17:56,049 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:18:56,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:19:56,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:20:56,056 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:21:56,058 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:22:56,060 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:23:56,062 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:24:56,064 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:25:56,067 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:26:56,069 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:27:56,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:28:56,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:29:56,075 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:30:56,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:31:06,084 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 10:31:56,079 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:32:56,081 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:33:56,083 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:34:56,085 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:35:56,087 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:36:56,089 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:37:56,091 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:38:56,093 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:39:56,095 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:40:56,098 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:41:56,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:42:56,102 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:43:56,104 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:44:56,107 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:45:56,109 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:46:56,112 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:47:56,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:48:56,116 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:49:56,118 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:50:56,120 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:51:47,328 - freqtrade.exchange.exchange - INFO - Using cached leverage_tiers.
+2025-09-28 10:51:47,328 - freqtrade.exchange.exchange - INFO - Done initializing 233 markets.
+2025-09-28 10:51:47,343 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 0 pairs: []
+2025-09-28 10:51:47,344 - freqtrade.freqtradebot - INFO - Active pair whitelist is empty.
+2025-09-28 10:51:56,123 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:52:56,125 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:53:56,127 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:54:56,130 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:55:56,133 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:56:56,136 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:57:56,138 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:58:56,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 10:59:56,144 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:01:01,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:01:06,013 - freqtrade.wallets - INFO - Wallets synced.
+2025-09-28 11:02:01,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:03:01,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:03:28,330 - uvicorn.error - INFO - connection closed
+2025-09-28 11:03:28,331 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(2c5dec51, ('127.0.0.1', 36418))
+2025-09-28 11:04:01,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:05:01,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:06:01,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:07:01,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:08:01,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:09:01,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:10:01,028 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:11:01,031 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:12:01,033 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:13:01,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:14:01,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:15:01,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:16:01,045 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:17:01,048 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:18:01,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:19:01,055 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:20:01,058 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:21:01,061 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:22:01,064 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:23:01,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:24:01,069 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:25:01,071 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:26:01,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:27:01,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.7', state='RUNNING'
+2025-09-28 11:27:59,191 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-09-28 11:27:59,191 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-09-28 11:27:59,192 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-09-28 11:27:59,194 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-09-28 11:27:59,194 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-09-28 11:27:59,195 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-09-28 11:27:59,222 - uvicorn.error - INFO - Shutting down
+2025-09-28 11:27:59,324 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-09-28 11:27:59,325 - uvicorn.error - INFO - Application shutdown complete.
+2025-09-28 11:27:59,325 - uvicorn.error - INFO - Finished server process [1]
+2025-09-28 11:27:59,326 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-09-28 11:27:59,979 - freqtrade - INFO - SIGINT received, aborting ...
+2025-09-29 02:14:12,548 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-09-29 02:14:12,548 - freqtrade.loggers - INFO - Logfile configured
+2025-09-29 02:14:12,548 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-09-29 02:14:12,549 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-09-29 02:14:12,549 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2025-09-29 02:14:12,549 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-09-29 02:14:12,549 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:///user_data/db/tradesv3_okx.sqlite"
+2025-09-29 02:14:12,549 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2025-09-29 02:14:12,566 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-09-29 02:14:12,567 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/okx ...
+2025-09-29 02:14:12,568 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-09-29 02:14:12,574 - freqtrade.exchange.check_exchange - INFO - Exchange "okx" is officially supported by the Freqtrade development team.
+2025-09-29 02:14:12,574 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-09-29 02:14:12,575 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-09-29 02:14:12,575 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.96
+2025-09-29 02:14:12,575 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-29 02:14:12,580 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-29 02:14:12,586 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-29 02:14:12,591 - freqtrade.exchange.exchange - INFO - Using Exchange "OKX"
+2025-09-29 02:14:12,608 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 3 times.
+2025-09-29 02:14:12,843 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 2 times.
+2025-09-29 02:14:13,094 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 1 times.
+2025-09-29 02:14:13,342 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Giving up.
+2025-09-29 02:14:13,343 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 691, in reload_markets
+    retrier(self._load_async_markets, retries=retries)(reload=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 187, in wrapper
+    raise ex
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2025-09-29 02:14:13,366 - freqtrade - ERROR - Could not load markets, therefore cannot start. Please investigate the above error for more details.
+2025-09-30 01:01:48,535 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-09-30 01:01:48,535 - freqtrade.loggers - INFO - Logfile configured
+2025-09-30 01:01:48,535 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-09-30 01:01:48,536 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-09-30 01:01:48,536 - freqtrade.configuration.configuration - WARNING - `force_entry_enable` RPC message enabled.
+2025-09-30 01:01:48,536 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-09-30 01:01:48,536 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:///user_data/db/tradesv3_okx.sqlite"
+2025-09-30 01:01:48,536 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 1 ...
+2025-09-30 01:01:48,553 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-09-30 01:01:48,554 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/okx ...
+2025-09-30 01:01:48,555 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-09-30 01:01:48,561 - freqtrade.exchange.check_exchange - INFO - Exchange "okx" is officially supported by the Freqtrade development team.
+2025-09-30 01:01:48,561 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-09-30 01:01:48,562 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-09-30 01:01:48,562 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.96
+2025-09-30 01:01:48,562 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-30 01:01:48,567 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-30 01:01:48,572 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'httpsProxy': 'http://127.0.0.1:7890', 'wsProxy': 'http://127.0.0.1:7890', 'enableRateLimit': True, 'rateLimit': 50}
+2025-09-30 01:01:48,578 - freqtrade.exchange.exchange - INFO - Using Exchange "OKX"
+2025-09-30 01:01:48,595 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 3 times.
+2025-09-30 01:01:48,830 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 2 times.
+2025-09-30 01:01:49,079 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Retrying still for 1 times.
+2025-09-30 01:01:49,330 - freqtrade.exchange.common - WARNING - _load_async_markets() returned exception: "Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT". Giving up.
+2025-09-30 01:01:49,331 - freqtrade.exchange.exchange - ERROR - Could not load markets.
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1268, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 641, in sock_connect
+    return await fut
+           ^^^^^^^^^
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 681, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('127.0.0.1', 7890)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 208, in fetch
+    async with session_method(yarl.URL(url, encoded=True),
+               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              data=encoded_body,
+                              ^^^^^^^^^^^^^^^^^^
+                              headers=request_headers,
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+                              timeout=(self.timeout / 1000),
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              proxy=final_proxy) as response:
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1207, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1606, in _create_proxy_connection
+    transport, proto = await self._create_direct_connection(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        proxy_req, [], timeout, client_error=ClientProxyConnectionError
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1581, in _create_direct_connection
+    raise last_exc
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1550, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/connector.py", line 1291, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientProxyConnectionError: Cannot connect to host 127.0.0.1:7890 ssl:default [Connect call failed ('127.0.0.1', 7890)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 651, in _api_reload_markets
+    await self._api_async.load_markets(reload=reload, params={})
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 329, in load_markets
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 321, in load_markets
+    result = await self.markets_loading
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 288, in load_markets_helper
+    markets = await self.fetch_markets(params)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1574, in fetch_markets
+    promises = await asyncio.gather(*promises)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/okx.py", line 1742, in fetch_markets_by_type
+    response = await self.publicGetPublicInstruments(self.extend(request, params))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 940, in request
+    return await self.fetch2(path, api, method, params, headers, body, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 934, in fetch2
+    raise e
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 925, in fetch2
+    return await self.fetch(request['url'], request['method'], request['headers'], request['body'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 248, in fetch
+    raise ExchangeNotAvailable(details) from e
+ccxt.base.errors.ExchangeNotAvailable: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 691, in reload_markets
+    retrier(self._load_async_markets, retries=retries)(reload=True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 184, in wrapper
+    return wrapper(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/common.py", line 187, in wrapper
+    raise ex
+  File "/freqtrade/freqtrade/exchange/common.py", line 172, in wrapper
+    return f(*args, **kwargs)
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 664, in _load_async_markets
+    markets = self.loop.run_until_complete(self._api_reload_markets(reload=reload))
+  File "/usr/local/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/freqtrade/freqtrade/exchange/exchange.py", line 655, in _api_reload_markets
+    raise TemporaryError(
+        f"Error in reload_markets due to {e.__class__.__name__}. Message: {e}"
+    ) from e
+freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotAvailable. Message: okx GET https://www.okx.com/api/v5/public/instruments?instType=SPOT
+2025-09-30 01:01:49,364 - freqtrade - ERROR - Could not load markets, therefore cannot start. Please investigate the above error for more details.
