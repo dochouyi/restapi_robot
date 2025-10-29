@@ -14,7 +14,7 @@ class DummyStrategy(IStrategy):
     process_only_new_candles = True
     use_exit_signal = False
     can_short = True
-
+    position_adjustment_enable = True
 
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
         return dataframe

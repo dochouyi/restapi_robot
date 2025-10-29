@@ -3,7 +3,7 @@ version: '3.8'
 services:
   freqtrade-binance:
     image: freqtradeorg/freqtrade:stable
-    restart: unless-stopped
+    restart: "no"
     network_mode: host
     container_name: freqtrade-arbitrage-binance
     volumes:
@@ -15,33 +15,33 @@ services:
       --config /freqtrade/user_data/config_binance.json
       --strategy DummyStrategy
 
-  freqtrade-bybit:
-    image: freqtradeorg/freqtrade:stable
-    restart: unless-stopped
-    network_mode: host
-    container_name: freqtrade-arbitrage-bybit
-    volumes:
-      - "./robot:/freqtrade/user_data"
-      - "/etc/timezone:/etc/timezone:ro"
-    command: >
-      trade
-      --logfile /freqtrade/user_data/logs/freqtrade_bybit.log
-      --config /freqtrade/user_data/config_bybit.json
-      --strategy DummyStrategy
-
-  freqtrade-okx:
-    image: freqtradeorg/freqtrade:stable
-    restart: unless-stopped
-    network_mode: host
-    container_name: freqtrade-arbitrage-okx
-    volumes:
-      - "./robot:/freqtrade/user_data"
-      - "/etc/timezone:/etc/timezone:ro"
-    command: >
-      trade
-      --logfile /freqtrade/user_data/logs/freqtrade_okx.log
-      --config /freqtrade/user_data/config_okx.json
-      --strategy DummyStrategy
+#  freqtrade-bybit:
+#    image: freqtradeorg/freqtrade:stable
+#    restart: "no"
+#    network_mode: host
+#    container_name: freqtrade-arbitrage-bybit
+#    volumes:
+#      - "./robot:/freqtrade/user_data"
+#      - "/etc/timezone:/etc/timezone:ro"
+#    command: >
+#      trade
+#      --logfile /freqtrade/user_data/logs/freqtrade_bybit.log
+#      --config /freqtrade/user_data/config_bybit.json
+#      --strategy DummyStrategy
+#
+#  freqtrade-okx:
+#    image: freqtradeorg/freqtrade:stable
+#    restart: "no"
+#    network_mode: host
+#    container_name: freqtrade-arbitrage-okx
+#    volumes:
+#      - "./robot:/freqtrade/user_data"
+#      - "/etc/timezone:/etc/timezone:ro"
+#    command: >
+#      trade
+#      --logfile /freqtrade/user_data/logs/freqtrade_okx.log
+#      --config /freqtrade/user_data/config_okx.json
+#      --strategy DummyStrategy
 
   #  docker compose up -d
   #  docker compose down
