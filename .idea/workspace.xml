@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5749311-e45e-4134-aec8-42cfa5365026" name="Changes" comment="初步验证用rest api连续下单逻辑，有很多异常需要处理，尚待解决">
-      <change afterPath="$PROJECT_DIR$/schedual_2_exchange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a10aa2df-cc85-4555-aa56-fdbd65a10559.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a10aa2df-cc85-4555-aa56-fdbd65a10559.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/restapi_robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restapi_robot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/config_binance.json" beforeDir="false" afterPath="$PROJECT_DIR$/robot/config_binance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite-shm" beforeDir="false" afterPath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite-wal" beforeDir="false" afterPath="$PROJECT_DIR$/robot/db/tradesv3_binance.sqlite-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/logs/freqtrade_binance.log" beforeDir="false" afterPath="$PROJECT_DIR$/robot/logs/freqtrade_binance.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/schedual.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedual_2_exchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/schedual_2_exchange.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,9 @@
     "Python.schedual_2_exchange.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/houyi/crypto/restapi_robot",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -145,7 +145,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -160,6 +161,7 @@
       <workItem from="1761716594870" duration="14977000" />
       <workItem from="1761787139215" duration="12504000" />
       <workItem from="1761808854962" duration="11200000" />
+      <workItem from="1761827947179" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="初步验证用rest api连续下单逻辑，有很多异常需要处理，尚待解决">
       <option name="closed" value="true" />

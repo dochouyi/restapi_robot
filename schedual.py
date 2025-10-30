@@ -1,4 +1,4 @@
-from freqtrade_client import FtRestClient
+from rest_api.ft_rest_client import FtRestClient
 import time
 from typing import Optional
 
